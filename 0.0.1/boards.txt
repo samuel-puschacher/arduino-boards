@@ -82,6 +82,6 @@ thingsuno.build.vid=0x2341
 thingsuno.build.pid=0x8036
 thingsuno.build.usb_product="Arduino Leonardo"
 thingsuno.build.board=THINGS_UNO
-thingsuno.build.core=arduino
+thingsuno.build.core=arduino:arduino
 thingsuno.build.variant=thingsuno
 thingsuno.build.extra_flags={build.usb_flags}
