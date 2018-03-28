@@ -10,7 +10,7 @@ menu.cpu=Processor
 ################################################################################
 ################################## TheThingsNode ###############################
 ################################################################################
-thingsnode.name="The Things Node"
+thingsnode.name=The Things Node
 
 thingsnode.upload.tool=avrdude
 thingsnode.upload.protocol=avr109
@@ -49,7 +49,7 @@ thingsnode.bootloader.file=caterina/Caterina-promicro8.hex
 ################################################################################
 
 
-thingsuno.name="The Things UNO"
+thingsuno.name=The Things UNO
 thingsuno.vid.0=0x2341
 thingsuno.pid.0=0x0036
 thingsuno.vid.1=0x2341

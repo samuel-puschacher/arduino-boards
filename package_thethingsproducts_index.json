@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/samuel-puschacher/TTP_Arduino_Boards/raw/master/boards_0.0.1.tar.bz2",
           "archiveFileName": "boards_0.0.1.tar.bz2",
-          "checksum": "SHA-256:d104ba7b070a55e759132c074b6b853786e7383c6fc60cbe1a494b20739b6862",
-          "size": "776724",
+          "checksum": "SHA-256:f82be8f9bc1a4a746506e15c68d2c43df3bdb348b29e623dc994b7903641ebed",
+          "size": "776784",
           "help": {
             "online": "https://www.thethingsnetwork.org/forum/"
           },
