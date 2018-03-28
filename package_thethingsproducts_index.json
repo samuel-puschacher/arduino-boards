@@ -1,0 +1,39 @@
+{
+  "packages": [
+    {
+      "name": "TheThingsProducts",
+      "maintainer": "Samuel Puschacher",
+      "websiteURL": "https://thethingsnetwork.org",
+      "email": "TechSupport@SparkFun.com",
+      "help": {
+        "online": "https://www.thethingsnetwork.org/forum/"
+      },
+      "platforms": [
+        {
+          "name": "TheThingsNetwork Arduino Boards",
+          "architecture": "avr",
+          "version": "1.1.9",
+          "category": "Contributed",
+          "url": "https://github.com/sparkfun/Arduino_Boards/raw/master/IDE_Board_Manager/sparkfunboards.1.1.9.tar.bz2",
+          "archiveFileName": "sparkfunboards.1.1.9.tar.bz2",
+          "checksum": "SHA-256:89480C355876966DB68504E4E4130719942320AECF0AD6AEF819299796B22202",
+          "size": "1238253",
+          "help": {
+            "online": "https://www.thethingsnetwork.org/forum/"
+          },
+          "boards": [
+            {
+              "name": "TheThingsUNO"
+            },
+            {
+              "name": "TheThingsNode"
+            }
+          ],
+          "toolsDependencies": []
+        },
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}

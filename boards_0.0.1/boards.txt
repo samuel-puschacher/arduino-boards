@@ -1,0 +1,87 @@
+# TheThingsNetwork Board Contribution Configuration
+#
+# For more information see:
+# * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# * https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
+
+menu.cpu=Processor
+
+################################################################################
+################################## TheThingsNode ###############################
+################################################################################
+thingsnode.name=The Things Node
+
+thingsnode.upload.tool=avrdude
+thingsnode.upload.protocol=avr109
+thingsnode.upload.maximum_size=28672
+thingsnode.upload.maximum_data_size=2560
+thingsnode.upload.speed=57600
+thingsnode.upload.disable_flushing=true
+thingsnode.upload.use_1200bps_touch=true
+thingsnode.upload.wait_for_upload_port=true
+
+thingsnode.bootloader.tool=avrdude
+thingsnode.bootloader.unlock_bits=0x3F
+thingsnode.bootloader.lock_bits=0x2F
+thingsnode.bootloader.low_fuses=0xFF
+thingsnode.bootloader.high_fuses=0xD8
+
+thingsnode.build.board=THINGS_NODE
+thingsnode.build.core=arduino:arduino
+thingsnode.build.variant=thingsnode
+thingsnode.build.mcu=atmega32u4
+thingsnode.build.usb_product="SparkFun Pro Micro"
+thingsnode.build.vid=0x1b4f
+thingsnode.build.extra_flags={build.usb_flags}
+
+thingsnode.build.pid.0=0x9203
+thingsnode.build.pid.1=0x9204
+thingsnode.build.pid=0x9204
+thingsnode.build.f_cpu=8000000L
+
+thingsnode.bootloader.extended_fuses=0xFE
+thingsnode.bootloader.file=caterina/Caterina-promicro8.hex
+
+
+################################################################################
+################################## TheThingsUNO ################################
+################################################################################
+
+
+thingsuno.name=The Things UNO
+thingsuno.vid.0=0x2341
+thingsuno.pid.0=0x0036
+thingsuno.vid.1=0x2341
+thingsuno.pid.1=0x8036
+thingsuno.vid.2=0x2A03
+thingsuno.pid.2=0x0036
+thingsuno.vid.3=0x2A03
+thingsuno.pid.3=0x8036
+
+thingsuno.upload.tool=avrdude
+thingsuno.upload.protocol=avr109
+thingsuno.upload.maximum_size=28672
+thingsuno.upload.maximum_data_size=2560
+thingsuno.upload.speed=57600
+thingsuno.upload.disable_flushing=true
+thingsuno.upload.use_1200bps_touch=true
+thingsuno.upload.wait_for_upload_port=true
+
+thingsuno.bootloader.tool=avrdude
+thingsuno.bootloader.low_fuses=0xff
+thingsuno.bootloader.high_fuses=0xd8
+thingsuno.bootloader.extended_fuses=0xcb
+thingsuno.bootloader.file=caterina/Caterina-Leonardo.hex
+thingsuno.bootloader.unlock_bits=0x3F
+thingsuno.bootloader.lock_bits=0x2F
+
+thingsuno.build.mcu=atmega32u4
+thingsuno.build.f_cpu=16000000L
+thingsuno.build.vid=0x2341
+thingsuno.build.pid=0x8036
+thingsuno.build.usb_product="TheThingsUNO"
+thingsuno.build.board=THINGS_UNO
+thingsuno.build.core=arduino
+thingsuno.build.variant=thingsuno
+thingsuno.build.extra_flags={build.usb_flags}
