@@ -14,7 +14,7 @@
           "architecture": "avr",
           "version": "0.0.1",
           "category": "Contributed",
-          "url": "https://github.com/samuel-puschacher/TTP_Arduino_Boards/raw/master/boards_0.0.1.tar.bz2",
+          "url": "https://github.com/samuel-puschacher/arduino-boards/raw/master/boards_0.0.1.tar.bz2",
           "archiveFileName": "boards_0.0.1.tar.bz2",
           "checksum": "SHA-256:456d90a9eb677fd94a3accb3249de43bcfca03cfe839c5f2a071007b588fb5b1",
           "size": "775804",
